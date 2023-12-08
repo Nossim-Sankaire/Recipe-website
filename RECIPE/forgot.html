@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="forgot.css">
+	<title>forgot password</title>
+</head>
+<body>
+	<form action="/reset_password" method="post">
+<h2>RESET PASSWORD</h2>
+<br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" minlength="10" maxlength="15" required>
+
+        <label for="New password"> New Password:</label>
+        <input type="password" id="password" name="password" minlength="8 characters" required>
+		<label for="Confirm password"> Confirm Password:</label>
+        <input type="password" id="password" name="password" minlength="8 characters" required>
+<br> <br>
+        <input type="submit" value="Reset" class="login-button">
+      </form>
+</body>
+</html>

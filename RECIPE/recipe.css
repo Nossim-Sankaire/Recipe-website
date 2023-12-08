@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgb(240, 216, 58);
+    /*font-family: 'poppins',sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;*/
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.recipe1{
+    background: white;
+    width: 270px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.image{
+    background-color: aqua;
+    height: 350px;
+    margin-bottom:15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.image1{
+    background-image: url(images/baked\ chicken.jpg);
+}
+.image2{
+    background-image: url(images/pineapple\ smoothie.jpg);
+}
+.image3{
+    background-image: url(images/coconut\ rice.jfif);
+}
+.recipe1:hover{
+    background-color: rgb(62, 60, 60);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.topnav{
+	background-color: black;
+	overflow: hidden;
+}
+.topnav a{
+float: left;
+color: blanchedalmond;
+text-align: center;
+padding: 14px 16px;
+text-decoration: wavy;
+font-size: 17px;
+	}
+.topnav a:hover{
+	background-color:rgb(157, 163, 164);
+	color: black;
+}
+.topnav a.active{
+	background-color: #2acdd9;
+	color: #fff;
+}
+.topnav a.split{
+	float: right;
+	color: blanchedalmond;
+}

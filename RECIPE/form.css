@@ -1,0 +1,35 @@
+body{
+	background: hwb(210 32% 40%);
+	font-style:arial;
+	background-image: url(images/baked\ chicken.jpg);
+	background-position:center;
+	background-repeat: no-repeat, repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	padding: 5px;
+	text-align: center;
+}
+h1{
+	font-size:1.5cm;
+	text-align: center;
+	font-family: cursive;
+	color:#e0cbb0;
+}
+h2{
+	font-size: larger;
+	text-align: center;
+	color: rgb(246, 247, 247);
+}
+.form{
+	margin: auto;
+    width: 100%;
+    max-width: 380px;
+    padding: 0px 20px 20px;
+    background: rgba(0,0,0,0.7);
+	border-radius: 10px;
+	color: #fff;
+    box-shadow: 0 15px 25px rgba(189, 188, 188, 0.959);
+}
+.container{
+	background-color: rgb(120, 123, 122);
+}

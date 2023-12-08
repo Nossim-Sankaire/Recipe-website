@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: content-box;
+}
+body{
+	background-image: url(images/homepage.jpg);
+	background-position:center;
+	background-repeat: no-repeat, repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	padding: 0px;
+	text-align: center;
+}
+.topnav{
+	background-color: black;
+	overflow: hidden;
+}
+.topnav a{
+float: left;
+color: blanchedalmond;
+text-align: center;
+padding: 14px 16px;
+text-decoration: wavy;
+font-size: 17px;
+	}
+.topnav a:hover{
+	background-color:rgb(157, 163, 164);
+	color: black;
+}
+.topnav a.active{
+	background-color: #2acdd9;
+	color: #fff;
+}
+.topnav a.split{
+	float: right;
+	color: blanchedalmond;
+}
+h1{
+	color: black;
+	font-family:"comic sans MS";
+	text-align: left;
+}
+ p{
+	margin: auto;
+    width: 100%;
+    max-width: 380px;
+    padding: 0px 20px 20px;
+    background: rgba(0,0,0,0.7);
+	border-radius: 10px;
+	color: #fff;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+	font-size:large;
+	text-align:left;
+}
+input{
+    color:0,0,0,0;
+	border-radius:  5cm;
+	border-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50.200rem;
+    line-height: 5;
+    margin:10%;
+    position:relative;
+    text-align: center;
+	background:rgba(23, 26, 28, 0.493) ;
+	
+}
+span{
+	color: bisque;
+}
+
+

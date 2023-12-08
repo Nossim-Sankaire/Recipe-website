@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+<link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form action="home.html" method="post">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" minlength="5" maxlength="15" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8 characters" required>
+
+        <input type="button" value="Login" class="login-button" onclick="checkPassword()"><a href="home.html"></a>
+      </form>
+      <script>
+        function checkPassword() {
+          const username = document.getElementById("username").value;
+          const password = document.getElementById("password").value;
+          
+      
+          if (password === "nossim22") {
+
+            window.location.href = "home.html";
+          } else if(password!== "nossim22"){
+            alert("Incorrect password. Please try again.");
+          }
+          else{
+            alert("Please fill out the empty fields!!")
+          }
+        }
+        </script>
+        <br>
+      <p><h4><a href ="forgot.html">forgot password?</a></h4></p>
+    <p><h4>don't have an account?🤷‍♀</h4>
+        <h5><a href="form.html"><b>Create a new account</b></a></h5>
+    </p>
+    </div>    
+  </body>
+</html>
